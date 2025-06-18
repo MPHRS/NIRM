@@ -61,7 +61,7 @@
 
 ## 6. Конкатенация топ‑N самых вариабельных генов
 
-* **Шелл‑скрипт:** `scripts/conc_var.sh`
+* **Shell‑скрипт:** `scripts/conc_var.sh`
 
   * Считывает `tmp_files/sorted_entropy.txt`, создаёт папки `concat_align/variant_{1..9}`, копирует в них первые N `.aln`.
 * **Скрипт:** `scripts/concat_alignments.py <concat_dir> mapping.csv`
@@ -96,7 +96,9 @@
 
    * `scripts/run_ml_pipeline.sh -t tmp_files/top_ml_genes.txt -i alignments -c concat_ml -r final_trees_ml -m trees_ml_temp -b bootstrap_summary_ml.txt`
    * Аналогично для K-F distance: `-t tmp_files/top_ml_kf.txt … bootstrap_summary_ml_kf.txt`.
-
+5. **Когда получили файли фичей и расстояний, то ML применялся здесь:**
+   https://colab.research.google.com/drive/1mJNzsKXPbsFc8EVpjHVUDMD49wel8w-C?usp=sharing
+   
 ---
 
 ## 9. NG‑MAST (porB + tbpB)
