@@ -44,7 +44,7 @@
 
 ## 5. Выравнивание и расчёт вариабельности
 
-* **Мультишаговый цикл:**
+* **Цикл:**
 
   ```bash
   mkdir -p alignments variability
@@ -72,7 +72,7 @@
 
 ## 7. Построение филогенетических деревьев
 
-* **Шелл‑скрипты:**
+* **Shell‑скрипты:**
 
   * `trees.sh`: для каждого N генов запускает `iqtree -s concat.fasta -m MFP -bb 1000 … -pre trees_temp/…` и копирует `.treefile` в `final_trees/`.
   * `calc_bootstrap.sh`: собирает `bootstrap_summary.txt` с усреднёнными значениями бутстрэпа.
