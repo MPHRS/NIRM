@@ -15,7 +15,7 @@ This repository contains code and analysis from a 6-month research project (gran
 - **Output**: reduced marker panels for high-resolution phylogenetics + ARG profiles.  
 - Goal: **resource-efficient, accurate surveillance** of *N. gonorrhoeae* with direct clinical/epidemiological relevance.
 
- For full methods & results, see [Neisseria gonorrhoeae.docx](<Neisseria gonorrhoeae.docx>).  
+ For full methods & results, see [Neisseria gonorrhoeae.pdf](<Neisseria gonorrhoeae.pdf>).  
 
 ---
 
